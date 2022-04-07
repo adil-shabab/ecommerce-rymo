@@ -1,0 +1,88 @@
+.cart-container{
+    overflow-x: auto;
+}
+.cart-container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+.cart-container table thead{
+    font-weight: 700;
+}
+.cart-container table thead td{
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 8px 0;
+}
+.cart-container table td{
+    border: 1px solid grey;
+    text-align: center;
+}
+.cart-container table td:nth-child(1){
+    width: 100px;
+}
+.cart-container table td:nth-child(2),
+.cart-container table td:nth-child(3){
+    width: 200px;
+}
+.cart-container table td:nth-child(4),
+.cart-container table td:nth-child(5),
+.cart-container table td:nth-child(6){
+    width: 170px;
+}
+.cart-container table tbody img{
+    width: 100px ;
+    height: 80px;
+    object-fit: cover;
+}
+.cart-container table tbody i{
+    color: black;
+}
+button{
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+.coupon-section .coupon,
+.coupon-section .total{
+    border: 1px solid black;
+    padding-bottom: 20px;
+}
+.coupon-section .coupon h5,
+.coupon-section .total h5{
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-weight: 700;
+}
+.coupon p,
+.total h6,
+.total p{
+    padding: 0 15px;
+}
+.coupon input{
+    padding: 0 15px;
+    margin-left: 15px;
+    height: 45px;
+}
+.total hr{
+    margin-left: 15px;
+}
+.total button{
+    margin-left: 15px;
+}
+.line{
+    background-color: rgb(55, 55, 55);
+    width: 95%;
+    height: 1px;
+}
+.total .button{
+    display: flex;
+    margin-right: 15px ;
+    justify-content: flex-end;
+}

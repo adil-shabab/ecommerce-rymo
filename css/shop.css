@@ -1,0 +1,16 @@
+.product img{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+#featured > div > nav > ul > li.page-item.active > a{
+    background-color: black;
+}
+#featured > div > nav > ul > li:nth-child(n):hover a{
+    background-color: coral;
+    color: white;
+}
+.pagination a{
+    color: black;
+}

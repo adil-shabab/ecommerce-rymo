@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+
+    <!-- fontawesome cdn  -->
+    <script src="https://kit.fontawesome.com/f1c31f30b1.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="/img/logo1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active"  aria-current="page" href="shop.html"><b>Shop</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html"><b>Blog</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>About</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>Contact</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b><i class="fa-solid fa-magnifying-glass"></i></b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html"><b><i class="fa-solid fa-cart-plus"></i></b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <section class="featured my-5 pb-5" id="featured">
+        <div class="container my-5 py-5 heading">
+            <h2 class="font-weight-bold">Our Featured</h2>
+            <hr>
+            <p class="mb-5">Here you can check out our new products with fair price on rymo</p>
+            <div class="row mx-auto container-fluid">
+                <div onclick="window.location.href='singleproduct.html'" class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/1.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">T-Shirt</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/2.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Sport Boots</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/3.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Bags</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/4.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Running Shoes</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+            </div>
+            <div class="row mx-auto container-fluid">
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/5.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Sport Wear</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/6.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Jumpsuite</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/7.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Shoe</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/8.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Jumpsuite</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+            </div>
+            <div class="row mx-auto container-fluid">
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/9.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Bags</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/10.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Watches</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/11.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Cap</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/12.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Sport Boots</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+            </div>
+            <div class="row mx-auto container-fluid">
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/13.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Watches</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/14.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Shoes</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/15.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Cap</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/16.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">T-Shirt</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+            </div>
+            <div class="row mx-auto container-fluid">
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/17.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Jumpsuite</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/18.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Cap</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/19.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">T-Shirt</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12 ">
+                    <img class="img-fluid mb-3" src="/img/shop/20.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="product-name">Jumpsuite</h5>
+                    <h4 class="product-price mb-3">$95.00</h4>
+                    <a href="#" class="shop-now mb-3">shop now</a>
+                </div>
+            </div>
+            <nav aria-label="...">
+                <ul class="pagination mt-5">
+                  <li class="page-item disabled">
+                    <span class="page-link">Previous</span>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="mt-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="footer-one col-lg-3 col-md-6 col-12">
+                    <img src="/img/logo2.png" alt="">
+                    <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, corporis
+                        exercitationem. Repudiandae deserunt soluta nulla perferendis inventore minima similique minus
+                        repellendus numquam sequi doloribus, labore tempora odit earum alias nemo?</p>
+                </div>
+                <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                    <h5 class="pb-3">Featured</h5>
+                    <ul class="text-uppercase list-unstyled">
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">boys</a></li>
+                        <li><a href="#">girls</a></li>
+                        <li><a href="#">new arrivals</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">cloths</a></li>
+                    </ul>
+                </div>
+                <div class="footer-one col-lg-3 col-md-6 col-12">
+                    <h5 class="pb-3">Contact Us</h5>
+                    <div>
+                        <h6 class="text-uppercase">Address</h6>
+                        <p>123 STREET NAME, CITY, Us</p>
+                    </div>
+                    <div>
+                        <h6 class="text-uppercase">Phone</h6>
+                        <p>+91 7510393197</p>
+                    </div>
+                    <div>
+                        <h6 class="text-uppercase">Email</h6>
+                        <p>adilshabab2004@gmail.com</p>
+                    </div>
+                </div>
+                <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                    <h5 class="pb-3">Instagram</h5>
+                    <div class="row">
+                        <img class="img-fluid w-25 h-100 m-2" src="/img/insta/1.jpg" alt="">
+                        <img class="img-fluid w-25 h-100 m-2" src="/img/insta/2.jpg" alt="">
+                        <img class="img-fluid w-25 h-100 m-2" src="/img/insta/3.jpg" alt="">
+                        <img class="img-fluid w-25 h-100 m-2" src="/img/insta/4.jpg" alt="">
+                        <img class="img-fluid w-25 h-100 m-2" src="/img/insta/5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="copyright mt-5 row">
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <img src="/img/payment.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+                    <p>rymo eCommerce <i class="fa-solid fa-copyright"></i> 2022. All Rights Reserved</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
