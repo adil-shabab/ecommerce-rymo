@@ -228,7 +228,7 @@ html{
 
 /* banner section start  */
 .banner{
-    background: url(img/banner/2.jpg) no-repeat;
+    background: url(/img/banner/2.jpg) no-repeat;
     background-size: cover;
     background-position: top 70px center;
     background-attachment: fixed;
