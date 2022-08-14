@@ -2,6 +2,9 @@
 ecommerce rymo
 
 
+ONLY FRONTEND
+
+
 click this link to see website
 
 https://ecommerce-rymo.netlify.app/
